@@ -12,6 +12,8 @@
     border-bottom: 2px solid rgb(255, 230, 0);
   }
   
+  /* Code for the parralex effect
+
   .parallax {
     background-image: url('https://i.imgur.com/4v4mziT.jpg');
     background-attachment: fixed;
@@ -46,6 +48,8 @@
     background-position: center 90%;
   }
   
+  
+
   <section class="parallax parallax-1">
     <div class="parallax-text">Section 1</div>
   </section>
@@ -61,5 +65,7 @@
   <section class="parallax parallax-4">
     <div class="parallax-text">Section 4</div>
   </section>
+  
+  */
   
   
