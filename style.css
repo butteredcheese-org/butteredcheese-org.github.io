@@ -11,6 +11,14 @@
   .navbar {
     border-bottom: 2px solid rgb(255, 230, 0);
   }
+
+  #updates-area {
+    background-color: #343a40; /* Use the same color as the navbar */
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff; /* Set the text color to white */
+  }
+  
   
   /* Code for the parralex effect
 
