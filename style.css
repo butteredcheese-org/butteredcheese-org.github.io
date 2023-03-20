@@ -18,4 +18,28 @@
     border-radius: 10px;
     color: #ffffff; /* Set the text color to white */
   }
+
+  .card {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .card-title {
+    color: #fff;
+  }
+  
+  .card-text {
+    color: #d9d9d9;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #343a40;
+  }
+  
+  .btn:hover {
+    background-color: #d9d9d9;
+    color: #fff;
+  }
+  
   
