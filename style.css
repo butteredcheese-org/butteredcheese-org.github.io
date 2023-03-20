@@ -1,21 +1,153 @@
-@media screen and (prefers-color-scheme: dark) {
-    p {
-      color: #fff;
-    }
-  }
-  
-  .custom-video-size {
-    width: 100%;
-  }
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
 
-  .navbar {
-    border-bottom: 2px solid rgb(255, 230, 0);
-  }
 
-  #updates-area {
-    background-color: #343a40; /* Use the same color as the navbar */
-    padding: 20px;
-    border-radius: 10px;
-    color: #ffffff; /* Set the text color to white */
-  }
-  
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-nav li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #6f42c1;
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('https://dummyimage.com/1200x400/000/fff');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #5a32b5;
+  border-color: #5a32b5;
+}
+
+/* Featured bikes styles */
+.featured {
+  padding: 3rem 0;
+}
+
+.featured h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin-bottom: 1.5rem;
+}
+
+/* Contact styles */
+.contact {
+  padding: 3rem 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.form textarea {
+  height: 10rem;
+}
+
+.form button {
+  background-color: #6f42c1;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #5a32b5;
+}
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
