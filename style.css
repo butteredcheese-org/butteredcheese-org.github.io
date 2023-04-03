@@ -1,45 +1,114 @@
 @media screen and (prefers-color-scheme: dark) {
-    p {
-      color: #fff;
-    }
+  p {
+  color: #fff;
+  }
   }
   
   .custom-video-size {
-    width: 100%;
+  width: 100%;
   }
-
+  
   .navbar {
-    border-bottom: 2px solid rgb(255, 230, 0);
+  border-bottom: 2px solid rgb(255, 230, 0);
   }
-
+  
   #updates-area {
-    background-color: #343a40; /* Use the same color as the navbar */
-    padding: 20px;
-    border-radius: 10px;
-    color: #ffffff; /* Set the text color to white */
+  background-color: #343a40; /* Use the same color as the navbar /
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff; / Set the text color to white */
   }
-
+  
   .card {
-    background-color: #343a40;
-    color: #fff;
+  background-color: #343a40;
+  color: #fff;
   }
   
   .card-title {
-    color: #fff;
+  color: #fff;
   }
   
   .card-text {
-    color: #d9d9d9;
+  color: #d9d9d9;
   }
   
   .btn {
-    background-color: #fff;
-    color: #343a40;
+  background-color: #fff;
+  color: #343a40;
   }
   
   .btn:hover {
-    background-color: #d9d9d9;
-    color: #fff;
+  background-color: #d9d9d9;
+  color: #fff;
   }
-  
-  
+  body {
+  background: linear-gradient(120deg, #1D1D1D 0%, #303030 100%);
+  }
+  .card {
+  background-color: #2D2D2D;
+  border: none;
+  }
+  .navbar {
+  border-bottom: 1px solid #555;
+  }
+  .btn-primary {
+  background-color: #FF7A00;
+  border-color: #FF7A00;
+  }
+  .btn-primary:hover {
+  background-color: #FF9633;
+  border-color: #FF9633;
+  }
+  .card-footer {
+  background-color: #1D1D1D;
+  }
+  .card-group {
+    margin-bottom: 30px;
+    }
+    
+    .container {
+    max-width: 1300px;
+    }
+    
+    h1, h2, h5 {
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    }
+    
+    .nav-item {
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .nav-link {
+    font-weight: 500;
+    }
+    
+    .card-title {
+    font-weight: 500;
+    }
+    
+    .card-text {
+    font-weight: 300;
+    }
+    
+    .text-white {
+    color: #fff !important;
+    }
+    
+    .footer-social {
+    margin-bottom: 20px;
+    }
+    
+    .footer-social a {
+    margin: 0 5px;
+    }
+    
+    @media (max-width: 767px) {
+    .card-group {
+    margin-bottom: 15px;
+    }
+    }
