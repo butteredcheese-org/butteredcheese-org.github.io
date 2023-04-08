@@ -9,3 +9,40 @@ body {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+.card {
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 0.25rem;
+}
+.card-img-top {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.card-text {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+hr {
+  background-color: #fff;
+  height: 2px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.icon-link {
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+}
+
